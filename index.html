@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Bibhash Dash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2 id="logoName">PORTFOLIO.</h2>
+        </div>
+        <div class="navToggle">
+            <h2 id="trigram" onclick="showNavList()">&#9776;</h2>
+            <h2 id="cross" onclick="hideNavList()">&#10005;</h2>
+        </div>
+    </div>
+    <div class="navList" id="navList">
+        <a href="#home" onclick="toggle()">Home</a>
+        <a href="#projects" onclick="toggle()">Projects</a>
+        <a href="#skills" onclick="toggle()">Tech Stack</a>
+        <a href="#achievements" onclick="toggle()">Achievements</a>
+        <a href="#contact" onclick="toggle()">Contact</a>
+    </div>
+    <div class="home" id="home">
+        <h5>Hey, I'm</h5>
+        <h2>BIBHASH DASH</h2>
+        <h4>Web Developer</h4>
+        <p>Transforming visions into captivating user experiences. Where pixels meet perfection, innovation dances, and creativity unfolds.</p>
+        <div class="homeBtns">
+            <a href="cv.pdf">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="socialMedia">
+            <a href="https://www.linkedin.com/in/bibhashdash/"><img src="image/linkedin.png" alt=""></a>
+            <a href="https://github.com/bibhashhdash"><img src="image/github.png" alt=""></a>
+            <a href="https://www.instagram.com/_bibhash_?igsh=Z2hjZGw0YTJqMXlh"><img src="image/instagram.png" alt=""></a>
+            <a href="tel:7008174534"><img src="image/whatsapp.png" alt=""></a>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h3 class="sectionTitle">PROJECTS</h3>
+        <div class="projectContainer">
+            <div class="project"><a href="https://bibhashhdash.github.io/Fitster/"><img src="image/fitster.png" alt=""></a></div>
+            <div class="project"><a href="https://bibhashhdash.github.io/Number-Analyzer/"><img src="image/numA.png" alt=""></a></div>
+            <div class="project"><a href="https://bibhashhdash.github.io/CALCULATOR/"><img src="image/calculator.png" alt=""></a></div>
+            <div class="project"><a href="https://bibhashhdash.github.io/Word-Counter/"><img src="image/wordCounter.png" alt=""></a></div>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <h3 class="sectionTitle">TECH STACK</h3>
+        <div class="skillContainer">
+            <div class="skill" id="c"><img src="image/c.png" alt="" /></div>
+            <div class="skill" id="java"><img src="image/java.png" alt="" /></div>
+            <div class="skill" id="html"><img src="image/html.png" alt="" /></div>
+            <div class="skill" id="css"><img src="image/css.png" alt="" /></div>
+            <div class="skill" id="js"><img src="image/js.png" alt="" /></div>
+            <div class="skill" id="jquery"><img src="image/jquery.png" alt="" /></div>
+            <div class="skill" id="mysql"><img src="image/mysql.png" alt="" /></div>
+            <div class="skill" id="oracle"><img src="image/oracle.png" alt="" /></div>
+            <div class="skill" id="vsc"><img src="image/vsc.png" alt="" /></div>
+          </div>
+    </div>
+    <div class="achievements" id="achievements">
+        <h3 class="sectionTitle">ACHIEVEMENTS</h3>
+        <div class="achievementContainer">
+            <div class="achievement">
+                <h2>66.89%</h2>
+                <h4>TCS NATIONAL QUALIFIER TEST</h4>
+                <p>2023</p>
+                <a href="#" class="achievementBtn">See Credential</a>
+            </div>
+            <div class="achievement">
+                <h2>1st</h2>
+                <h4>SOF INT. ENGLISH OLYMPIAD</h4>
+                <p>2018</p>
+                <a href="#" class="achievementBtn">See Credential</a>
+            </div>
+            <div class="achievement">
+                <h2>1st</h2>
+                <h4>JKS STATE KARATE CHAMPIONSHIP</h4>
+                <p>2015 & 2016</p>
+                <a href="#" class="achievementBtn">See Credential</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h3 class="sectionTitle">CONTACT</h3>
+        <div class="contactContainer">
+            <form autocomplete="off">
+                <h2>Get In Touch</h2>
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Id">
+                <input type="text" placeholder="Phone Number">
+                <textarea name="message" id="msg" cols="30" rows="6"></textarea>
+                <div id="formBtn">Send Message</div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>&#169; All Rights Reserved | Created By Bibhash Dash</h3>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
